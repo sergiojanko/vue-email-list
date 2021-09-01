@@ -10,7 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <ul v-if="">
+        <li v-for="email in emails">{{email}}</li>
+      </ul>
+    </div>
     <script src="./js/script.js"></script>
   </body>
 </html>
