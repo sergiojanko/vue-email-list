@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: #0000ff;
+  height: 50%;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
